@@ -1,4 +1,4 @@
 import pandas as pd
 
-btc_df = pd.read_csv("D:\\Data\\btcust.csv")
+eth_df = pd.read_csv("D:\\Data\\eth-usdt.csv")
 
