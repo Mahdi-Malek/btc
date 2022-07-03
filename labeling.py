@@ -1,6 +1,6 @@
 import pandas as pd
 
-eth_df = pd.read_csv("D:\\Data\\eth-usdt.csv")
+eth_df = pd.read_csv("Your Path")
 labels = []
 
 for i in range(len(eth_df.index)-3):
@@ -26,4 +26,4 @@ lab = pd.Series(labels)
 tag = eth_df['Open Time']
 df = pd.concat([tag,lab],axis=1)
 df.columns = ['Open Time','label']
-df.to_csv("D:\\Data\\eth-labels.csv",index=False)
+df.to_csv("Your Path",index=False)
